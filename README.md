@@ -2,16 +2,8 @@
 
 ## How to Run
 
-### Windows
-1. Download `game.exe` from this repository.
-2. Double-click the file to start the game.
-   - If you see a security warning, click "More info" and "Run anyway" (if you trust the source).
-
-### Requirements
-- No installation is needed! Just run the exe.
-- If you see missing DLL errors, install the latest [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).
-
----
-
-### Running on macOS/Linux
-Windows `.exe` files won't run natively. Use Wine or a Windows emulator.
+Windows (x64)
+Download Runner-game-windows.zip, unzip it, then double-click game.exe
+If blocked, run from Command Prompt to see errors: cmd → cd path\to\unzip\folder → game.exe
+If you see missing DLL errors, install the Visual C++ Redistributable for Visual Studio (link)
+macOS users: This is a Windows exe and will not run on macOS natively.
